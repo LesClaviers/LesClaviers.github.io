@@ -6,25 +6,26 @@
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding: 13px 10px;
+  border-bottom: 1px;
   text-transform: uppercase;
 }
 
 .nav li {
-  display: inline;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .nav img {
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
+	padding-top: 3px;
+	width: auto;
 }
 
 .jumbotron {
   background-image: url(ti.jpg);
   height: 500px;
-	background-origin:inherit;
-	background-size: cover;
+  background-origin:inherit;
+  background-size: cover;
 }
 
 .jumbotron .container {
