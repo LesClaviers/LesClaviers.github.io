@@ -22,7 +22,7 @@
 }
 
 .jumbotron {
-	background-image: url(ti.jpg);
+	background-image: url(img/ti.jpg);
 	height: 500px;
 	background-origin:inherit;
 	background-size: cover;
@@ -89,4 +89,9 @@ footer {
 	color: #999;
 	text-align: center;
 	line-height:50%;
+}
+
+img {
+	border-color: black;
+	border: 1px;
 }
